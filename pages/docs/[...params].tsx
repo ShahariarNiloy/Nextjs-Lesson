@@ -8,6 +8,7 @@ const Doc = () => {
   if (params.length === 2) {
     return (
       <h1>
+        1 X Viewing docs for feature {params[0]} and concept {params[1]}2 X
         Viewing docs for feature {params[0]} and concept {params[1]}
       </h1>
     );
